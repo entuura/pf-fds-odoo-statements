@@ -55,10 +55,10 @@ This file contains all necessary settings, including credentials and paths.
 ```sh
 # SFTP credentials for downloading bank statements
 USER="your_sftp_user"
-HOST="your.sftp.server"
-PORT=22
+HOST="mftp1.postfinance.ch"
+PORT=8022
 KEYFILE="$HOME/.ssh/your_ssh_key.pem"
-LOCALDIR="$HOME/PostFinanceArchive2"
+LOCALDIR="$HOME/PostFinanceArchive"
 LOGFILE="$HOME/logs/sftp_sync.log"
 LOGFILEDAILY="$HOME/logs/pfs-to-odoo.log"
 

@@ -36,6 +36,10 @@ This system supports multiple PostFinance accounts, provided the **account names
    git clone https://github.com/yourusername/pf-fds-odoo-statements.git
    cd pf-fds-odoo-statements
    ```
+   Then copy the files where you need them. I happen to use my Odoo user's $HOME directory.  Depending on where you install you might need to adjust paths a bit.  Also pay atttention to which python interpreter you are using.  Ideally make it the same as the one running Odoo.  
+
+In my case I assume that these scripts are running on the same host running Odoo, but actually there is no real requirement for this as long as  pf-process-statements.py has access to all the righy Python addons and can reach the Odoo API and PostFinance SFTP site.
+
 2. Install dependencies:
    ```sh
    sudo apt install lftp

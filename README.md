@@ -50,7 +50,7 @@ In my case I assume that these scripts are running on the same host running Odoo
 
 ## Configuration File (`pf-lftp-config.sh`)
 
-This file contains all necessary settings, including credentials and paths. **For security reasons, do not commit this file to GitHub.**
+This file contains all necessary settings, including credentials and paths.
 
 ```sh
 # SFTP credentials for downloading bank statements

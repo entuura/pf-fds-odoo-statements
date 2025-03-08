@@ -27,8 +27,8 @@ set -e
 # ---------------------------
 # # SFTP credentials for downloading bank statements
 # USER="your_sftp_user"
-# HOST="your.sftp.server"
-# PORT=22
+# HOST="mftp1.postfinance.ch"
+# PORT=8022
 # KEYFILE="$HOME/.ssh/your_ssh_key.pem"
 # LOCALDIR="$HOME/your_local_directory"
 # LOGFILE="$HOME/logs/sftp_sync.log"
